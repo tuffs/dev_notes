@@ -1,6 +1,21 @@
 @import "tailwindcss";
 
+#main_page__layout {
+  @apply bg-gray-950 text-gray-200 min-h-full flex flex-col;
+}
+
+#main_page__navigation {
+  @apply flex flex-col;
+  margin: 1rem;
+  padding: 3rem;
+  h1 {
+    @apply text-4xl;
+  }
+}
+
 #data_page {
+  margin: 2.555rem;
+  padding: 1rem;
   background-color: white;
   color: black;
 }
